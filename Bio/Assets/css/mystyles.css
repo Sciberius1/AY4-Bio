@@ -5,9 +5,15 @@
     justify-content: space-between;
     border-spacing: 10px;
     border: 1px solid #f3f3f3;
-    max-width: 100%;
+    max-width: 800px;
     border-spacing: 10px;
     height: auto;
+    padding: 10px;
+    margin: 5px;
+    flex-basis: calc(33.33% - 10px);
+    border: 1px solid white;
+    width: calc(33.33% - 10px);
+    min-width: 300px;
 }
 
 /* adjustments to make the rows work properly */

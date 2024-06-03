@@ -1,0 +1,106 @@
+/* make the images interactive with the resizing of the browser window. */
+.img-responsive {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-spacing: 10px;
+    border: 1px solid #f3f3f3;
+    max-width: 100%;
+    border-spacing: 10px;
+    height: auto;
+}
+
+/* adjustments to make the rows work properly */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* adjustments to make the columns work properly */
+.box {
+    min-width: 300px;
+    flex: 1;
+    margin: 10px;
+    padding: 0px;
+}
+
+.text-box {
+    min-width: 100px;
+    max-width: 300px;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 10px;
+}
+
+.content-main {
+    flex: 1;
+}
+
+/* adjustments to make the floating header work properly */
+.float-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.float-header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.float-header ul {
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.float-header li {
+    margin-right: 10px;
+}
+
+.float-header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.float-header a:hover {
+    color: #ccc;
+}
+
+.new-row {
+clear: both;
+}
+
+/* Generic adjustments */
+body {
+    padding-top: 150px;
+    height: 100%;
+    position: relative;
+}
+
+div {
+    margin-bottom: 5px;
+}
+
+footer {
+    padding-bottom: 50px;
+    bottom: 0;
+    width: 100%;
+}

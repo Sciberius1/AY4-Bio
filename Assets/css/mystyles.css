@@ -1,8 +1,30 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.image {
+    width: 100%;
+    height: 300px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
 /* make the images interactive with the resizing of the browser window. */
 .img-responsive {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     border-spacing: 10px;
     border: 1px solid #f3f3f3;
     max-width: 800px;
@@ -10,7 +32,6 @@
     height: auto;
     padding: 10px;
     margin: 5px;
-    flex-basis: calc(33.33% - 10px);
     border: 1px solid white;
     width: calc(33.33% - 10px);
     min-width: 300px;
@@ -20,7 +41,7 @@
 .row {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: left;
 }
 
 /* adjustments to make the columns work properly */
@@ -32,10 +53,13 @@
 }
 
 .text-box {
-    min-width: 100px;
-    max-width: 300px;
-    padding: 10px;
+    width: 300px;
+    height: 100%;
     margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #070505;
 
 }
 
@@ -94,11 +118,26 @@
 clear: both;
 }
 
+/* Responsive layout - makes a one column layout for small screen sizes */
+@media (max-width: 600px) {
+    .flex-container { flex-direction: column;
+    }
+    .image {
+    width: 100%;
+    height: 200px;
+    }
+    .text-box {
+    width: 100%;
+    margin-top: 20px;
+    }
+}
+
 /* Generic adjustments */
 body {
     padding-top: 150px;
     height: 100%;
     position: relative;
+    background-color: #070505;
 }
 
 div {

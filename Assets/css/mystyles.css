@@ -133,6 +133,10 @@ clear: both;
 }
 
 /* Generic adjustments */
+#achievement{
+    padding-top: 20%;
+}
+
 body {
     padding-top: 150px;
     height: 100%;

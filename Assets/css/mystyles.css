@@ -133,7 +133,7 @@ clear: both;
 }
 
 /* Generic adjustments */
-header #home{
+.anchorpad{
     padding-top: 10%;
 }
 

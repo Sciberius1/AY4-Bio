@@ -133,8 +133,8 @@ clear: both;
 }
 
 /* Generic adjustments */
-#home{
-    padding-top: 20%;
+header #home{
+    padding-top: 10%;
 }
 
 body {

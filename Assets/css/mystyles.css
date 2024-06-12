@@ -133,6 +133,10 @@ clear: both;
 }
 
 /* Generic adjustments */
+.anchorpad{
+    padding-top: 10%;
+}
+
 body {
     padding-top: 150px;
     height: 100%;

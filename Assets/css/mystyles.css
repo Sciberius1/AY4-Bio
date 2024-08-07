@@ -53,7 +53,7 @@
 }
 
 .text-box {
-    width: 300px;
+    max-width: 50%;
     height: 100%;
     margin: 10px;
     padding: 20px;

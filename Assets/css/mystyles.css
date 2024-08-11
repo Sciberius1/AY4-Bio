@@ -14,7 +14,7 @@
     max-width: 300px;
     max-height: 300px;
     margin: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid;
     border-radius: 10px;
     background-size: cover;
     background-position: center;
@@ -26,13 +26,13 @@
     flex-wrap: wrap;
     justify-content: center;
     border-spacing: 10px;
-    border: 1px solid #f3f3f3;
+    border: 1px solid;
     max-width: 300px;
     border-spacing: 10px;
     max-height: 300px;
     padding: 10px;
     margin: 5px;
-    border: 1px solid white;
+    border: 1px solid;
     width: calc(33.33% - 10px);
     min-width: 300px;
 }
@@ -57,10 +57,10 @@
     height: 500px;
     margin: 10px;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid;
     border-radius: 10px;
-    background-color: #070505;
-
+    background-color: black;
+    color: #fff;
 }
 
 .content {
@@ -142,6 +142,7 @@ body {
     height: 100%;
     position: relative;
     background-color: #070505;
+    color: #fff;
 }
 
 div {
